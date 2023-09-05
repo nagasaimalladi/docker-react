@@ -20,7 +20,7 @@ deploy:
   on:
     branch: main
 
-  access_key_id : $$AWS_ACCESS_KEY
+  access_key_id : $AWS_ACCESS_KEY
   secret_access_key: "$AWS_SECRET_KEY"
 
 ##   - docker run -e CI=true nagasaim227/docker-react npm run test
